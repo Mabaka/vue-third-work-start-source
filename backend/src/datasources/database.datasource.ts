@@ -5,11 +5,11 @@ const config = {
   name: 'database',
   connector: 'postgresql',
   url: '',
-  host: 'db',
+  host: 'localhost',
   port: 5432,
   user: 'postgres',
-  password: 'psql',
-  database: 'postgres',
+  password: 'postgres',
+  database: 'vuework',
 };
 
 // Observe application's life cycle to disconnect the datasource when
